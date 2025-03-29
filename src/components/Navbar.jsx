@@ -33,7 +33,9 @@ const Navbar = () => {
           <Link to="/login">
             <FaUser className="text-xl cursor-pointer hover:text-gray-700" />
           </Link>
-          <FaShoppingBag className="text-xl cursor-pointer hover:text-gray-700" />
+          <Link to="/cart">
+            <FaShoppingBag className="text-xl cursor-pointer hover:text-gray-700" />
+          </Link>
         </div>
       </div>
     </nav>
